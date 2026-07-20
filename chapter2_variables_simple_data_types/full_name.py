@@ -27,3 +27,10 @@ print("Languages: \nPython\nC\nJavaScript")
 
 # Combining tab and line as a whitespace
 print("Languages: \n\tPython\n\tC\n\tJavaScript")
+
+# Removing extra whitespace from the rigth side of a string with rstrip() method 
+# rstrip() method will remove the extra whitespace only temporary unless you assign the value to a variable 
+favorite_language = "Python "
+print(favorite_language)
+
+print(favorite_language.rstrip())
