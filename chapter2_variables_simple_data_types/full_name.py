@@ -7,3 +7,10 @@ Letter f is placed before the opening quatation of the string """
 
 full_name = f"{first_name} {last_name}"
 print(full_name)
+
+# Example of using f-string to compose a message. Title() method used to format the full_name 
+print(f"Hello {full_name.title()}!")
+
+# Example of assignin the f-string composed message to a variable. This makes the final print() call more simple
+message = f"Hello {full_name.title()}!"
+print(message)
