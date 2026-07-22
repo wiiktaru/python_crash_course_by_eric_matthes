@@ -30,7 +30,14 @@ print("Languages: \n\tPython\n\tC\n\tJavaScript")
 
 # Removing extra whitespace from the rigth side of a string with rstrip() method 
 # rstrip() method will remove the extra whitespace only temporary unless you assign the value to a variable 
+# lstrip() removes whitespaces from the left side of a string 
 favorite_language = "Python "
 print(favorite_language)
 
 print(favorite_language.rstrip())
+
+# removing whitespaces from left and right side of a string with a strip() method
+# Assigning the stripped string to a value for permanent removal of the whitespaces 
+word_with_whitespaces = "  Donald Duck  "
+word_without_whitespaces = word_with_whitespaces.strip()
+print(word_without_whitespaces)
