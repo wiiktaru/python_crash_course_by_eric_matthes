@@ -41,3 +41,17 @@ print(favorite_language.rstrip())
 word_with_whitespaces = "  Donald Duck  "
 word_without_whitespaces = word_with_whitespaces.strip()
 print(word_without_whitespaces)
+
+# Removing URL prefix 'https://'
+
+""" string.removeprefix()-method syntax: 
+- string: the original string with the prefix 
+- prefix: the group of letters you want to remove from the start of the original string
+- return type: a string, that has the specified prefix removed, if the prefix existed - else returns the 
+original string   """
+
+url_with_prefix = 'https://google.com'
+url_without_prefix = url_with_prefix.removeprefix('https://')
+print(url_without_prefix) 
+ 
+ 
