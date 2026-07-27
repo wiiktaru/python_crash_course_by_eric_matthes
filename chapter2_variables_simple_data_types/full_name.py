@@ -49,7 +49,10 @@ print(word_without_whitespaces)
 - prefix: the group of letters you want to remove from the start of the original string
 - return type: a string, that has the specified prefix removed, if the prefix existed - else returns the 
 original string   
-HOX! method is case-sensitive"""
+HOX! 
+- method is case-sensitive
+- leaves the original string unchanged unless assigned to a variable 
+"""
 
 url_with_prefix = 'https://google.com'
 url_without_prefix = url_with_prefix.removeprefix('https://')
